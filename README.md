@@ -1,13 +1,24 @@
 # Ruby
 
-A multi-column [Ghost](https://github.com/TryGhost/Ghost) theme with a unique card layout. Make your publication more organized with cards and widgets.
+A multi-column [Ghost](https://github.com/Synoptik-GK/Ghost-Ruby) theme with a unique card layout. Make your publication more organized with cards and widgets.
 
 **Demo: https://ruby.ghost.io**
 
 # Instructions
 
-1. [Download this theme](https://github.com/TryGhost/Ruby/archive/main.zip)
+1. [Download this theme](https://github.com/Synoptik-GK/Ghost-Ruby/archive/main.zip)
 2. Log into Ghost, and go to the `Design` settings area to upload the zip file
+3. Change settings to use local JS and CSS for `portal` and `sodoSearch`.
+
+```json
+"portal": {
+    "url": " "
+},
+"sodoSearch": {
+    "url": "/assets/js/sodo-search.min.js",
+    "styles": "/assets/css/sodo-search.min.css"
+}
+```
 
 # Development
 
